@@ -1,0 +1,8 @@
+
+            procedure main();
+            var a: String;
+            begin
+                a := "Nguyen Huu Minh";
+                putStringLn(a);
+            end
+        

@@ -1,0 +1,16 @@
+
+        var a ,b,c: integer; out:boolean;
+		procedure main();
+		 var a ,b,c: integer; out:boolean;
+		begin
+        a:=1;
+              for b:=1 to 3 do
+			  with a ,b,c: integer; do 
+              begin 
+                a:=2; 
+                b:=3; 
+                putInt(a+b); 
+              end
+        end
+		
+		

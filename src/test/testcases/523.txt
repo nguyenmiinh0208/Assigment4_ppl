@@ -1,0 +1,16 @@
+
+            procedure main();
+            var a: integer;
+                b: real;
+            begin
+                a := 2;
+                b := 1.5;
+                with i,j: integer; do begin
+                    i := 10;
+                    j := 3;
+                    if (i <> j) then i := i + a;
+                    else j := j + a*2;
+                    putInt(i-j);
+                end
+            end
+        

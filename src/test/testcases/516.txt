@@ -1,0 +1,9 @@
+
+            procedure main();
+            var a: integer;
+            begin
+                a := 2;
+                a := a*a*a*a*a;
+                putInt(a);
+            end
+        

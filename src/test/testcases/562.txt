@@ -1,0 +1,17 @@
+ procedure main(); 
+                    begin 
+                        a:=8;
+                        b:=a/2 + 5;
+                        if (false and then nhat(1)) 
+                        then
+                            a:=7;
+                        else putInt(5);
+                    end
+                    function nhat(v:integer):boolean;                                       
+                    begin                        
+                        putInt(v);
+                        return true;                        
+                    end                    
+                    var a:integer; b: real;
+                    var x:boolean;                                   
+                

@@ -1,0 +1,10 @@
+
+            function testReturnString(): String;
+            begin
+                return "Minh";
+            end
+            procedure main();
+            begin
+                putString(testReturnString());
+            end
+        

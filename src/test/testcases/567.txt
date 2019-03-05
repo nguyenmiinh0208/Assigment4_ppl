@@ -1,0 +1,10 @@
+
+                function foo(i: integer): boolean;
+                begin
+                    return i >= 5;
+                end
+                procedure main();
+                begin
+                    putBoolLn(foo(1) or else foo(5));
+                end                      
+                

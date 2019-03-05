@@ -1,0 +1,15 @@
+
+            procedure main();
+            var i1, i2: integer;
+            begin
+                for i1:= 1 to 10 do begin
+                    for i2:=1 to 10 do begin
+                        putInt(i2);
+                        if i2= i1 - 1 then continue;
+                        end
+                    If i1 = 3 then continue;
+                    if i1 = 5 then break;
+                end
+                return;
+            end
+        

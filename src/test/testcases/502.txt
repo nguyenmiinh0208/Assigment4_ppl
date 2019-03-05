@@ -1,0 +1,10 @@
+var a:integer;
+            procedure main();
+            //var b: integer;
+            begin
+                a:=5;
+                //b:=6;
+                putInt(a);
+                //putInt(b);
+            end
+        

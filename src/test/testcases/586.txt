@@ -1,0 +1,9 @@
+
+        var a ,b,c: real; out:boolean;
+        procedure main();
+		begin  
+        c:=400;
+                if c=400/1 then putString("chia het cho 4");
+                else if c = 200 then return;
+        end   
+		

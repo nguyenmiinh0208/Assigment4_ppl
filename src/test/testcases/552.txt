@@ -1,0 +1,12 @@
+
+            procedure main();
+            var i1, i2: integer;
+            begin
+                i2:= 0;
+                for i1 := 0 to 5 do begin
+                    if i1 = 1 then continue;
+                    i2 := i2 + i1;
+                end
+                putInt(i2);
+            end
+        

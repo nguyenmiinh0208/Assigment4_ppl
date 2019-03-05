@@ -1,0 +1,16 @@
+
+            var a, b: integer;
+            procedure testWhile();
+            begin
+                a := 0;
+                b := 5;
+                while a < b do begin
+                    putIntLn(a);
+                    a := a + 1;
+                end
+            end
+            procedure main();
+            begin
+                testWhile();
+            end
+        

@@ -1,0 +1,10 @@
+
+            procedure main();
+            begin
+                with i,j: integer; do begin
+                    i := 10;
+                    j := 3;
+                    putInt(i - j);
+                end
+            end
+        

@@ -1,0 +1,16 @@
+
+            function testReturnString(a: integer; b:Boolean): String;
+            begin
+                if (a > 0) then 
+                    if b = true then
+                        k := "Thanh cong";
+                    else k := "That bai";
+                else k := "ERROR";
+                return k;
+            end
+            procedure main();
+            begin
+                putString(testReturnString(1,true));
+            end
+            var k: String;
+        

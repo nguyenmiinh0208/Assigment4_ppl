@@ -1,0 +1,11 @@
+
+            function testReturnBool(): Boolean;
+            begin
+                return true;
+            end
+            procedure main();
+            begin
+                putBool(testReturnBool());
+            end
+            var g: Boolean;
+        

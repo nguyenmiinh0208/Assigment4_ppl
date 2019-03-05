@@ -1,0 +1,10 @@
+
+        procedure main();
+        var a, b, iSum:integer;
+        begin
+            iSum := a := b := 0;
+            putIntLn(iSum);
+            putIntLn(a);
+            putInt(b);
+        end
+        

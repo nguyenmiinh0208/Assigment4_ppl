@@ -1,0 +1,11 @@
+
+            procedure main();
+            var a: integer;
+                b: real;
+            begin
+                a := 2;
+                b := 1.5;
+                if (a < b) then putIntLn(a);
+                else putFloat(b);
+            end
+        

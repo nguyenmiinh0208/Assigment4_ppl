@@ -1,0 +1,12 @@
+
+                var a,b,c: boolean;
+                procedure main();
+                var x: boolean;
+                begin
+                    x := True;
+                    a := False;
+                    b := False;
+                    c := True;
+                    putBoolLn(((a or else x) or else b) or else c);
+                end                      
+                

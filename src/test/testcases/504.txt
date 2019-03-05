@@ -1,0 +1,14 @@
+
+            procedure foo();
+            var a, b: integer;
+            begin
+                a := 5;
+                b := 7;
+                putIntLn(a);
+                putInt(b); 
+            end
+            procedure main();
+            begin
+                foo();
+            end
+        

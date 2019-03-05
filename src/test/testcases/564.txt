@@ -1,0 +1,14 @@
+
+                var a,b,c: integer;
+                function foo(i: integer): boolean;
+                begin
+                    a := a + i;
+                    return i >= 5;
+                end
+                procedure main();
+                var x: boolean;
+                begin
+                    a := 0;
+                    putBoolLn(((foo(1) or foo(2)) or foo(3)) or foo(7));
+                end                      
+                

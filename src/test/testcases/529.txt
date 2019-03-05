@@ -1,0 +1,10 @@
+
+            function testCallExpr(a: INTEGER): integer;
+            begin
+                return a + 1;
+            end
+            procedure main();
+            begin
+                putIntLn(testCallExpr(9));
+            end
+        

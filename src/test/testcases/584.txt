@@ -1,0 +1,17 @@
+
+				procedure main();
+				var b: boolean; a:integer; c:real; d:string;
+				begin
+					if 2.0 >= 1 and then 1 >= 2 or else 2.0 = 2.0 then
+					begin
+						d := "enter 1";
+						if true or else false and then 2 <> 1 then 
+						begin
+							d := "enter 2";
+						end
+					end
+					else
+						d := "This is false";
+					putString(d);
+				end
+			

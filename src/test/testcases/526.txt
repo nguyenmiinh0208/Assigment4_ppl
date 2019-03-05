@@ -1,0 +1,19 @@
+
+            var a: integer;
+                b: real;
+            procedure testIf();
+            begin
+                a := 10;
+                b := 9.98;
+                if (a > b) then begin
+                    if a >= 10 then a := a*a;
+                    else b:= a - b;
+                    putIntLn(a);
+                    putFloat(b);
+                end
+            end
+            procedure main();
+            begin
+                testIf();
+            end
+        

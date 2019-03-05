@@ -1,0 +1,12 @@
+
+            procedure main();
+            var a: integer;
+                b: real;
+            begin
+                a := 10;
+                b := 10.5;
+                if (a < b) then putStringLn("a nho hon b");
+                else putStringLn("a lon hon b");
+            end
+            var k: String;
+        

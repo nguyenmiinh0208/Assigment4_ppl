@@ -1,0 +1,11 @@
+
+        procedure main();
+        var a:real;
+            b:integer;
+            isTrue:boolean;
+        begin
+            a := 11.0;
+            b := 11;
+            isTrue := a <= b ;
+            putBoolLn(isTrue);
+        end

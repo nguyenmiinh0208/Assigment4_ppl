@@ -1,0 +1,13 @@
+
+            procedure main();
+            var i: integer;
+            begin
+               i := foo(5);
+               putInt(i);
+                
+            end
+            function foo(a:integer):integer;
+            begin
+                return a;
+            end
+        

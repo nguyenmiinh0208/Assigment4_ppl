@@ -1,0 +1,19 @@
+
+        var a ,b,c: real; out:boolean;	
+        procedure main();
+		begin  
+                 main1();
+                 main2();
+                     return;
+        end   
+		procedure main1();
+		begin  
+                 putInt(123);
+                     return;
+        end
+        procedure main2();
+		begin  
+                 putInt(1234);
+                     return;
+        end
+		

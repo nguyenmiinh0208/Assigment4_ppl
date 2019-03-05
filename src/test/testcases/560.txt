@@ -1,0 +1,15 @@
+
+        var a,b, c:integer;
+            fa,fb:real;
+        procedure main();
+        var isTrue:boolean;
+        begin
+            a := 1;
+            b := a + 1;
+            c := b mod 1;
+            fa := (a + b) div (c + a);
+            fb := (fa + a) / (c + b);
+            isTrue := fa <= fb;
+            putBoolLn(isTrue);
+        end
+        

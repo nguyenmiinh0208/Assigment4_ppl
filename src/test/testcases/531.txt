@@ -1,0 +1,10 @@
+
+            function testCallExpr(a,b:real): real;
+            begin
+                return a+b+1.5;
+            end
+            procedure main();
+            begin
+                putFloat(testCallExpr(8,0.5));
+            end
+        

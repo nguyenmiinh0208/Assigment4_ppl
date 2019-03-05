@@ -1,0 +1,17 @@
+
+            procedure main();
+            begin
+                with i,j: integer; do begin
+                    i := 10;
+                    j := 3;
+                    putIntLn(i - j);
+                end
+                With i: real; do begin
+                    with j: real; do begin
+                        i := 1.5;
+                        j := 2.5;
+                        putFloat(i - j);
+                    end
+                end
+            end
+        

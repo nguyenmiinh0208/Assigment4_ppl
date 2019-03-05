@@ -1,0 +1,10 @@
+
+            procedure main();
+            var a: integer;
+                b: real;
+            begin
+                a := 4;
+                b := 1.5;
+                putFloat(a*b);
+            end
+        

@@ -1,0 +1,8 @@
+
+            procedure main();
+            var isTrue: Boolean;
+            begin
+                isTrue := 2 > 3;
+                putBool(isTrue);
+            end
+        

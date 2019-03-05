@@ -1,0 +1,21 @@
+ function isprime(n:integer):boolean;
+                    var flag:boolean;
+                     id,i:integer;
+                    begin
+                       if (n=1) or (n=0)  then return False;
+                       if ( n=2) or (n= 3) then return True;
+                       flag:=True;
+                       for i:=2 to n div 2 do
+                            if  n-(n div i)*i =0 then
+                            begin
+                                id:=False;
+                                break;
+                            end
+                        return flag;
+                    end
+                    procedure main();
+                    begin
+                        putBoolLn(isprime(1));
+                    	putBoolLn(isprime(2));
+                    end                           
+                

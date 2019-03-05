@@ -1,0 +1,10 @@
+
+        var a : real;
+		function foo(b:integer): real;
+        begin return b; end
+        procedure main();
+		begin
+            a := foo(5);
+            putFloat(a);
+        end
+		

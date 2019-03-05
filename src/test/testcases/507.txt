@@ -1,0 +1,14 @@
+
+            procedure foo();
+            var a,b: real;
+            begin
+                a := 0.5;
+                b := 9.75;
+                putFloatLn(a);
+                putFloat(b); 
+            end
+            procedure main();
+            begin
+                foo();
+            end
+        

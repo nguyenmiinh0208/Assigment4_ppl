@@ -1,0 +1,7 @@
+
+            procedure main();
+            begin
+                if (1 > 2) then putInt(0);
+                else putInt(1);
+            end
+        

@@ -1,0 +1,10 @@
+
+            procedure main();
+            var a, b, c: integer;
+            begin
+                a := -2;
+                b := -1;
+                c := 3;
+                putInt(a + b + c);
+            end
+        

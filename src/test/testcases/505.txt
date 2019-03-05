@@ -1,0 +1,11 @@
+
+            procedure foo(a, b: integer);
+            begin
+                putIntLn(a);
+                putInt(b); 
+            end
+            procedure main();
+            begin
+                foo(5, 7);
+            end
+        

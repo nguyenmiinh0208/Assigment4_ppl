@@ -1,0 +1,12 @@
+
+            procedure testCallStmt(a: INTEGER; b, c:real);
+            begin
+                i := a + b + c;
+                putFloat(i);
+            end
+            procedure main();
+            begin
+                testCallStmt(10, 1, 1.5);
+            end
+            var i: Real;
+        

@@ -1,0 +1,14 @@
+
+            procedure main();
+            var i : integer;
+                S : integer;
+            begin
+                S :=0;
+                for i := 1 to 10 do
+                    begin
+                        if (S =10) then continue;
+                        S := S + i;
+                    end
+                putInt(S);
+            end
+        
